@@ -10,6 +10,8 @@
   box-sizing: border-box;
 }
 
+/* Тестирую гит пуш */
+
 body {
   color: var(--white);
   font-family: 'Fira Sans Condensed', Arial, sans-serif;
@@ -55,7 +57,8 @@ ol {
 .content {
   display: flex;
   align-items: flex-end;
-  justify-content: space-between;
+  /* justify-content: space-between; */
+  gap: 30px;
   min-width: 1140px;
   margin: 0 auto;
 }
@@ -121,6 +124,7 @@ ol {
   border: none;
   margin: 0;
   padding: 0;
+  color: var(--white);
 }
 
 :where(.button) {
@@ -258,7 +262,7 @@ ol {
   display: flex;
   flex-direction: column;
   gap: 20px;
-  /* width: 35%; */
+  min-width: 35%;
   padding-top: 5px;
 }
 
@@ -359,8 +363,9 @@ ol {
 }
 
 .content__video-card-thumbnail {
-  max-width: 194px;
   width: 100%;
+  max-width: 194px;
+  max-height: 103px;
   object-fit: cover;
   object-position: center;
 }
